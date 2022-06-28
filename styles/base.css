@@ -1,7 +1,7 @@
 /* --------------------- */
 /* Font Imports */
 /* --------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
 /* --------------------- */
 /* Custom Properties */
 /* --------------------- */
@@ -14,12 +14,12 @@
   --clr-grey-light: hsl(201, 11%, 66%);
   /* font-sizes */
   --fs-600: 2rem;
-  --fs-500: 1.3rem;
+  --fs-500: 1.7rem;
   --fs-400: 1.125rem;
   --fs-300: 1rem;
   --fs-200: 0.9rem;
   /* font-families */
-  --ff-bai: 'Bai Jamjuree', sans-serif;
+  --ff-bai: "Bai Jamjuree", sans-serif;
 }
 
 /* --------------------- */
@@ -44,7 +44,7 @@
 body {
   font-family: var(--ff-bai);
   font-size: var(--fs-400);
-  /* background-color: ; */
+  background-color: white;
   color: var(--clr-grey-light);
   line-height: 1.5;
   text-rendering: optimizeSpeed;
@@ -62,16 +62,16 @@ body {
 
 /* colors */
 .cyan {
-  color: var(--clr-cyan)
+  color: var(--clr-cyan);
 }
 .purple {
-  color: var(--clr-purple)
+  color: var(--clr-purple);
 }
-.grey-dark{
-  color: var(--clr-grey-dark)
+.grey-dark {
+  color: var(--clr-grey-dark);
 }
-.grey-light{
-  color: var(--clr-grey-light)
+.grey-light {
+  color: var(--clr-grey-light);
 }
 
 /* typography */
@@ -105,7 +105,7 @@ body {
   line-height: 2;
 }
 .line-height-3 {
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 .uppercase {
