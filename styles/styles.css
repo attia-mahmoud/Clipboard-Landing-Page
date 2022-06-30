@@ -240,7 +240,3 @@ button:hover {
     --gap: 3rem;
   }
 }
-
-.debug {
-  outline: 1px solid red;
-}
