@@ -18,104 +18,146 @@
   </head>
   <body>
     <main class="container container-main flex">
-      <img src="./images/logo.svg" alt="logo" class="logo" />
-      <p class="fs-600 fw-600 grey-dark line-height-3 header-main">
-        A history of everything you copy
-      </p>
-      <p>
-        Clipboard allows you to track and organize everything you copy.
-        Instantly access your clipboard on all your devices.
-      </p>
-      <button class="button-ios fw-600 letter-spacing-3">
-        Download for iOS
-      </button>
-      <button class="button-mac fw-600 letter-spacing-3">
-        Download for Mac
-      </button>
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Keep track of your snippets
-      </p>
-      <p>
-        Clipboard instantly stores any item you copy in the cloud, meaning you
-        can access your snippets immediately on all your devices. Our Mac and
-        iOS apps will help you organize everything.
-      </p>
-
-      <img src="./images/image-computer.png" alt="computer" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Quick Search
-      </p>
-      <p>
-        Easily search your snippets by content, category, web address,
-        application, and more.
-      </p>
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        iCloud Sync
-      </p>
-      <p>Instantly saves and syncs snippets across all your devices.</p>
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Complete History
-      </p>
-      <p>
-        Retrieve any snippets from the first moment you started using the app.
-      </p>
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Access Clipboard anywhere
-      </p>
-      <p>
-        Whether you’re on the go, or at your computer, you can access all your
-        Clipboard snippets in a few simple clicks.
-      </p>
-      <img src="./images/image-devices.png" alt="devices" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Supercharge your workflow
-      </p>
-      <p>We’ve got the tools to boost your productivity.</p>
-      <img src="./images/icon-blacklist.svg" alt="blacklist" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Create blacklists
-      </p>
-      <p>
-        Ensure sensitive information never makes its way to your clipboard by
-        excluding certain sources.
-      </p>
-      <img src="./images/icon-text.svg" alt="text" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Plain text snippets
-      </p>
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
-      <img src="./images/icon-preview.svg" alt="eye" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Sneak preview
-      </p>
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-      <img src="./images/logo-google.png" alt="google logo" />
-      <img src="./images/logo-ibm.png" alt="google logo" />
-      <img src="./images/logo-microsoft.png" alt="google logo" />
-      <img src="./images/logo-hp.png" alt="google logo" />
-      <img src="./images/logo-vector-graphics.png" alt="google logo" />
-      <p class="fs-500 fw-600 grey-dark line-height-3 header-main">
-        Clipboard for iOS and Mac OS
-      </p>
-      <p>
-        Available for free on the App Store. Download for Mac or iOS, sync with
-        iCloud and you’re ready to start adding to your clipboard.
-      </p>
-      <button class="button-ios fw-600 letter-spacing-3">
-        Download for iOS
-      </button>
-      <button class="button-mac fw-600 letter-spacing-3">
-        Download for Mac
-      </button>
-      <img src="./images/logo.svg" alt="logo" />
-      <p>FAQs</p>
-      <p>Contact Us</p>
-      <p>Privacy Policy</p>
-      <p>Press Kit</p>
-      <p>Install Guide</p>
-      <img src="./images/icon-facebook.svg" alt="facebook" />
-      <img src="./images/icon-twitter.svg" alt="twitter" />
-      <img src="./images/icon-instagram.svg" alt="instagram" />
+      <header class="flex">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <h1 class="fs-600 fw-600 grey-dark line-height-3 subheading">
+          A history of everything you copy
+        </h1>
+        <p>
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <button class="button-ios fw-600 letter-spacing-3">
+          Download for iOS
+        </button>
+        <button class="button-mac fw-600 letter-spacing-3">
+          Download for Mac
+        </button>
+      </header>
+      <div class="flex container-computer">
+        <div class="container-text flex">
+          <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+            Keep track of your snippets
+          </p>
+          <p>
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+        <img src="./images/image-computer.png" alt="computer" />
+        <div class="list flex">
+          <div class="flex">
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Quick Search
+            </p>
+            <p>
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </div>
+          <div class="flex">
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              iCloud Sync
+            </p>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div class="flex">
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Complete History
+            </p>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-computer flex">
+        <div class="container-text flex">
+          <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+            Access Clipboard anywhere
+          </p>
+          <p>
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+        </div>
+        <img src="./images/image-devices.png" alt="devices" />
+        <div class="list flex">
+          <div class="container-text flex">
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Supercharge your workflow
+            </p>
+            <p>We’ve got the tools to boost your productivity.</p>
+          </div>
+          <div class="flex">
+            <img src="./images/icon-blacklist.svg" alt="blacklist" />
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Create blacklists
+            </p>
+            <p>
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
+            </p>
+          </div>
+          <div class="flex">
+            <img src="./images/icon-text.svg" alt="text" />
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Plain text snippets
+            </p>
+            <p>
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div class="flex">
+            <img src="./images/icon-preview.svg" alt="eye" />
+            <p class="fs-500 fw-600 grey-dark line-height-3 subheading">
+              Sneak preview
+            </p>
+            <p>
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="list flex">
+        <img src="./images/logo-google.png" alt="google logo" />
+        <img src="./images/logo-ibm.png" alt="google logo" />
+        <img src="./images/logo-microsoft.png" alt="google logo" />
+        <img src="./images/logo-hp.png" alt="google logo" />
+        <img src="./images/logo-vector-graphics.png" alt="google logo" />
+      </div>
+      <header class="flex">
+        <h1 class="fs-500 fw-600 grey-dark line-height-3 subheading">
+          Clipboard for iOS and Mac OS
+        </h1>
+        <p>
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
+        <button class="button-ios fw-600 letter-spacing-3">
+          Download for iOS
+        </button>
+        <button class="button-mac fw-600 letter-spacing-3">
+          Download for Mac
+        </button>
+      </header>
     </main>
+    <footer class="flex">
+      <img src="./images/logo.svg" alt="logo" />
+      <div class="footer-links flex">
+        <p>FAQs</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Press Kit</p>
+        <p>Install Guide</p>
+      </div>
+      <div class="socials flex">
+        <img src="./images/icon-facebook.svg" alt="facebook" />
+        <img src="./images/icon-twitter.svg" alt="twitter" />
+        <img src="./images/icon-instagram.svg" alt="instagram" />
+      </div>
+    </footer>
   </body>
 </html>

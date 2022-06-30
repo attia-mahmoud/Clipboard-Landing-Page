@@ -3,21 +3,33 @@
 /* --------------------- */
 
 .logo {
-  margin: 4rem clamp(1.5rem, 5vw, 3.5rem);
+  margin: 3rem clamp(1.5rem, 5vw, 3.5rem);
   margin-top: 7rem;
 }
 
-.header-main {
+p {
+  max-width: 30ch;
+}
+
+.subheading {
   max-width: 15ch;
 }
 
+header p {
+  margin-bottom: 1.5rem;
+}
+
+img {
+  max-width: 90%;
+}
+
 button {
-  padding-block: 1rem;
+  padding-block: 0.8rem;
   min-width: 20rem;
   color: white;
   border: none;
   border-radius: 30px;
-  margin-block: 0.5rem;
+  margin-block: 0.3rem;
   border-bottom: 3px solid var(--clr-grey-dark);
 }
 
@@ -31,24 +43,215 @@ button {
   box-shadow: 0px 9px 45px -18px var(--clr-purple);
 }
 
+.list > div {
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list img {
+  margin-bottom: 2rem;
+}
+
+footer > img {
+  max-width: 3.5rem;
+}
+
+.footer-links {
+  --gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials {
+  --gap: 3rem;
+}
+
 /* --------------------- */
 /* Page Specific Backgrounds */
 /* --------------------- */
 
 body {
   background-image: url("../images/bg-header-mobile.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* --------------------- */
 /* Layout */
 /* --------------------- */
 
+header {
+  --gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container-main {
-  --gap: 1.5rem;
+  --gap: 8rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding-inline: 1rem;
   padding-bottom: 4rem;
+}
+
+.container-computer {
+  --gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  --gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-text {
+  --gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+footer {
+  --gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--clr-grey-extra-light);
+  color: var(--clr-grey-dark);
+  font-size: var(--fs-400);
+  margin-top: 8rem;
+  padding-block: 4rem;
+}
+
+@media (min-width: 1440px) {
+  /* --------------------- */
+  /* Components */
+  /* --------------------- */
+
+  .logo {
+    margin: 3rem clamp(1.5rem, 5vw, 3.5rem);
+    margin-top: 7rem;
+  }
+
+  p {
+    max-width: 30ch;
+  }
+
+  .subheading {
+    max-width: 15ch;
+  }
+
+  header p {
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  button {
+    padding-block: 0.8rem;
+    min-width: 20rem;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-block: 0.3rem;
+    border-bottom: 3px solid var(--clr-grey-dark);
+  }
+
+  .button-ios {
+    background-color: var(--clr-cyan);
+    box-shadow: 0px 9px 45px -18px var(--clr-cyan);
+  }
+
+  .button-mac {
+    background-color: var(--clr-purple);
+    box-shadow: 0px 9px 45px -18px var(--clr-purple);
+  }
+
+  .list > div {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list img {
+    margin-bottom: 2rem;
+  }
+
+  footer > img {
+    max-width: 3.5rem;
+  }
+
+  .footer-links {
+    --gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials {
+    --gap: 3rem;
+  }
+
+  /* --------------------- */
+  /* Page Specific Backgrounds */
+  /* --------------------- */
+
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* --------------------- */
+  /* Layout */
+  /* --------------------- */
+
+  header {
+    --gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-main {
+    --gap: 8rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .container-computer {
+    --gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    --gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-text {
+    --gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    --gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-grey-extra-light);
+    color: var(--clr-grey-dark);
+    font-size: var(--fs-400);
+    margin-top: 8rem;
+    padding-block: 4rem;
+  }
 }
