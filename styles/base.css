@@ -29,6 +29,7 @@
 @media (min-width: 35em) {
   /* font-sizes */
   :root {
+    --fs-600: 2.3rem;
   }
 }
 
