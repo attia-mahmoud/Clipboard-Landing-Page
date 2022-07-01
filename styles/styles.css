@@ -8,11 +8,11 @@
 }
 
 p {
-  max-width: min(55ch, 75%);
+  max-width: min(55ch, 90%);
 }
 
 .subheading {
-  width: 75%;
+  width: 88%;
 }
 
 header p {
@@ -140,7 +140,6 @@ footer {
   align-items: center;
   background-color: var(--clr-grey-extra-light);
   color: var(--clr-grey-dark);
-  font-size: var(--fs-400);
   margin-top: 8rem;
   padding-block: 4rem;
 }
@@ -231,7 +230,7 @@ button:hover {
   }
 
   .footer-links > * {
-    flex: 0 1 120px;
+    flex: 0 1 150px;
     text-align: start;
   }
 
