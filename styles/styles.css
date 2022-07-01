@@ -219,7 +219,6 @@ button:hover {
   footer {
     flex-direction: row;
     align-items: center;
-    padding-block: 4rem;
     padding-inline: 20rem;
     justify-content: space-between;
   }
